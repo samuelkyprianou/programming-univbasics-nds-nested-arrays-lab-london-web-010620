@@ -23,7 +23,7 @@ end
 def sorted_matrix
  produce_array = []
  produce_array.push(CONVENTIONAL_PRODUCE.sort)
- produce_array.push(ORGANIC_PRODUCE].sort)
+ produce_array.push(ORGANIC_PRODUCE.sort)
 end
 
 def matrix_lookup(matrix, row, column)
