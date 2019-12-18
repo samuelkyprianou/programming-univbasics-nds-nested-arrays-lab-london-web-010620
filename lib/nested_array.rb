@@ -21,7 +21,8 @@ def assembled_matrix
 end
 
 def sorted_matrix
- produce_array[CONVENTIONAL_PRODUCE.sort]
+ produce_array = []
+ CONVENTIONAL_PRODUCE.sort 
 end
 
 def matrix_lookup(matrix, row, column)
