@@ -22,7 +22,7 @@ end
 
 def sorted_matrix
  produce_array = []
- CONVENTIONAL_PRODUCE.sort.push
+ produce_array.push(CONVENTIONAL_PRODUCE.sort)
 end
 
 def matrix_lookup(matrix, row, column)
